@@ -296,7 +296,7 @@ talosctl kubeconfig --nodes 192.168.0.2 --endpoints 192.168.0.2 \
   --talosconfig=./talosconfig
 ```
 
-Running this command will add (merge) you new cluster into your local Kubernetes configuration.
+Running this command will add (merge) your new cluster into your local Kubernetes configuration.
 
 If you would prefer the configuration to _not_ be merged into your default Kubernetes configuration file, pass in a filename:
 
